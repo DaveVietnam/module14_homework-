@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="scriptTasks1-8.js"></script>
+  </head>
+  <body>
+    <div style="margin-bottom: 100px">
+      <h2>Введите число от 1 до 10</h2>
+      <input type="number" id="numberInput" placeholder="Введите число" />
+
+      <button type="submit">Отправить</button>
+      <div id="result"></div>
+    </div>
+
+    <div style="margin-bottom: 100px">
+      <h2>Введите 2 числа в диапазоне от 100 до 300»</h2>
+      <input type="number" id="numberInput1" placeholder="Введите число" />
+      <input type="number" id="numberInput2" placeholder="Введите число" />
+      <button type="submit" id="submit">Отправить</button>
+      <div id="result1"></div>
+    </div>
+
+    <div>
+      <h2>Введите 2 числа в диапазоне от 1 до 10»</h2>
+      <form action="#" style="display: inline-flex; flex-direction: column">
+        <div
+          style="
+            display: inline-flex;
+            flex-direction: column;
+            gap: 2px;
+            margin-bottom: 10px;
+          "
+        >
+          <label for="#numberInput3">номер страницы</label>
+          <input type="number" id="numberInput3" placeholder="Введите число" />
+        </div>
+        <div
+          style="
+            display: inline-flex;
+            flex-direction: column;
+            gap: 2px;
+            margin-bottom: 10px;
+          "
+        >
+          <label for="#numberInput4">лимит</label>
+          <input type="number" id="numberInput4" placeholder="Введите число" />
+        </div>
+        <button type="submit" id="submitBtn">запрос</button>
+      </form>
+      <div id="result2"></div>
+    </div>
+  </body>
+</html>
